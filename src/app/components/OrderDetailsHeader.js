@@ -27,6 +27,7 @@ export default function OrderDetailsHeader() {
           <p className="text-sm text-gray-600">Order ID</p>
           <p className="font-bold text-lg">#ORD_01</p>
           <p className="text-sm text-gray-600 mt-2">Payment Status:</p>
+          {/* Payment status badge */}
           <span className="inline-block mt-1 px-3 py-1 rounded-full bg-green-100 text-green-700 text-xs font-medium">
             Paid
           </span>
@@ -38,9 +39,9 @@ export default function OrderDetailsHeader() {
           <p className="font-semibold">Online Payment</p>
         </div>
       </div>
-      {/* Divider */}
+
+      {/* Divider line */}
       <hr className="my-6" />
-      {/* Order Items header will go here in your main page */}
     </>
   );
 }

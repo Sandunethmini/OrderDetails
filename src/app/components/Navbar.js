@@ -13,7 +13,7 @@ import {
 
 export default function Navbar() {
   return (
-    <div className="w-full lg:w-64 h-auto lg:h-screen bg-white shadow-lg flex flex-col justify-between">
+    <div className="w-64 h-screen bg-white shadow-lg flex flex-col justify-between">
       <div>
         <h1 className="text-3xl font-bold text-blue-600 tracking-wider p-6">
           Prawn care
